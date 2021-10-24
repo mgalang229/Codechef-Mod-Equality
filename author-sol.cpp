@@ -20,7 +20,9 @@ int main() {
 		int cnt = count(a.begin(), a.end(), mn);
 		bool all = false;
 		for (int i = 0; i < n; i++) {
-			// if the element is equal to the minimum element, then skip, otherwise, check 
+			// case 1: element is equal to the minimum value
+			// if the element is equal to the minimum element, then skip 
+			// case 2: element is greater than the minimum value
 			// if the minimum element is within the range of the results of a[i] % M
 			// [0, ceil(a[i] / 2) - 1] (inclusive), then change only the elementst that are
 			// greater than the minimum element, otherwise, we need to change all of them
