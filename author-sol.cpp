@@ -24,7 +24,7 @@ int main() {
 			// if the element is equal to the minimum element, then skip 
 			// case 2: element is greater than the minimum value
 			// if the minimum element is within the range of the results of a[i] % M
-			// [0, ceil(a[i] / 2) - 1] (inclusive), then change only the elementst that are
+			// [0, ceil(a[i] / 2) - 1] (inclusive), then change only the elements that are
 			// greater than the minimum element, otherwise, we need to change all of them
 			if (a[i] == mn) {
 				continue;
